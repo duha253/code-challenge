@@ -41,11 +41,13 @@ const isSimilar = (str1 ,str2) => {
     let strTow=str2.split('').sort();
     let statuse=true;
     for (let i = 0; i < strOne.length; i++) {
-        if (!)
-            
+        if (!strOne[i] ===str2[i]){
+            statuse=fulse
+        }
+          return statuse  
         }
         
-    }
+    
 
 
 /* ------------------------------------------------------------------------------------------------
